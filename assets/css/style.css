@@ -1,26 +1,24 @@
- * {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;}
- 
- :root {
-    --darkgrey: #3a4042;
-    --aqua: aqua;
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 
- }
+:root {
+  --darkgrey: #3a4042;
+  --aqua: aqua;
+}
 
 header {
-    background-color: var(--aqua);
-
+  background-color: var(--aqua);
 }
 
 header h1 {
   display: inline-block;
   font-size: 48px;
-  background:var(--darkgrey);
-  color:var(--aqua);
-  padding-left: 25px ;
- 
-
-  }
-
+  background: var(--darkgrey);
+  color: var(--aqua);
+  padding-left: 50px;
+}
 
 header div {
   padding-top: 15px;
@@ -30,86 +28,115 @@ header div {
   font-size: 20px;
 }
 
-
 header div ul {
   list-style-type: none;
   display: block;
-  
 }
-
 
 header div ul li {
   display: inline-block;
   margin-left: 25px;
+}
+
+a {
+  color: var(--darkgrey);
+  text-decoration: none;
+  border-bottom: 5px solid var(--darkgrey);
+  padding: 5px;
+}
+
+img { padding: 5px 2px;
+      border-radius: 10px ; }
+
+p {
+  font-size: large;
+}
+
+.figure {
+  background-image: url("../images/dandelion-2817950_1920.jpg");
+  height: 375px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.figure h2 {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  background-color: var(--darkgrey);
+  color: aqua;
+  font-size: 35px;
+}
+
+.aboutme {
+  font-size: 45px;
+  color: var(--darkgrey);
+  padding-left: 100px;
+  padding-top: 50px;
   
 }
 
+.aboutme p {
+  padding: 5px 40px;
+}
 
-a {
-    color: var(--darkgrey);
-    text-decoration: none;
-    border-bottom: 5px solid var(--darkgrey);
-    padding: 5px;
+.projects {
+  font-size: 45px;
+  color: var(--darkgrey);
+  padding-left: 100px;
+  padding-top: 65px;
+  
+}
+
+.contact {
+  font-size: 45px;
+  color: var(--darkgrey);
+  padding-top: 65px;
+  padding-left: 100px;
+}
+
+.resume {
+  font-size: 45px;
+  color: var(--darkgrey);
+  padding-top: 65px;
+  padding-left: 100px;
+  margin-bottom: 100px;
 
 }
 
-p { font-size:large;}
-
-
- .figure { 
-            background-image: url("../images/dandelion-2817950_1920.jpg"); 
-            height: 300px; 
-            width: 100%;  
-            background-size: cover;
-            background-position: center;
-            position: relative;
-
+.contact-link a {
+  display: inline-block;
+  margin-left: 150px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 2px;
+  justify-content: space-around;
 }
 
+.line {
+  border-right: 4px solid var(--darkgrey);
+}
+
+.maingrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 7fr;
+}
+
+.container { padding: 5px 50px;}
+
+@media only screen and (max-width:600px ) { 
+    .line {
+    border:none
+
+
+    }
+    .maingrid {
+  display: grid;
+  grid-template-columns: 1fr;
+
    
-   
- .figure h2 {
-            position:absolute;
-            bottom:0;
-            right: 20px;
-            background-color: var(--darkgrey);
-            color: aqua;
-            font-size: 35px;
-
-             }          
-
+}
     
-    .aboutme {font-size: 45px;
-              color: var(--darkgrey);
-              padding-left: 100px ;
-              padding-top: 50px;}
-
-        
-
-
-     /* .line { border-left: 2px solid grey;
-             height: 200px;}
-              */
-              
-
-
-    .projects {font-size: 45px;
-               color: var(--darkgrey); 
-               padding-left: 100px ;
-                padding-top: 50px;              
-    }   
-             
-    .contact {font-size: 45px;
-                color: var(--darkgrey);  
-    }  
-
-    
-
-    .resume {font-size: 45px;
-             color: var(--darkgrey);                          
-    }  
-
-
-     
-    
- 
+}
