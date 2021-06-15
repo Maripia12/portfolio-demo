@@ -2,17 +2,27 @@
 
 ## Project:
 
-To create a portfolio with the core skills recently learned in class. Including flexbox, css variables and media queries. 
+To create a portfolio with the core skills recently learned in class. Including grids, css variables and media queries. 
 
 -----
-## Included:
+## Details:
 
-* My name as a header with a picture of myself. 
-* Links on the far right that navigate to the corresponding sections.
-* An image of my first assigned application.
-*   
+ 
+* Links are placed on the far right.  
+* Brief summary about myself with picture.
+* When links are clicked it navigates to the corresponding sections.
+* An image of my first assigned project.
+* Used grid form and line separator. 
+* Contact links are also provided.
+
+  
+
+ ![portfolio-image.png](assets/images/portfolio-image.png)
 
 
+
+
+# Images:
 
 
 
