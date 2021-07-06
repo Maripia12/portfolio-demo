@@ -1,6 +1,19 @@
+ 
+
+
+
+body { margin: 0%;
+  background-color: rgb(163, 231, 231);
+  
+      
+}
+
+      
+
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+     
 }
 
 :root {
@@ -50,6 +63,9 @@ img { padding: 5px 2px;
 
 p {
   font-size: large;
+  font-size: 25px;
+  line-height: 1.6em;
+  
 }
 
 .figure {
@@ -59,6 +75,7 @@ p {
   background-size: cover;
   background-position: center;
   position: relative;
+  border: 10px solid #3a4042;
 }
 
 .figure h2 {
@@ -67,7 +84,17 @@ p {
   right: 20px;
   background-color: var(--darkgrey);
   color: aqua;
-  font-size: 35px;
+  font-size: 45px;
+  padding: 10px;
+}
+
+.me-pic{ 
+  margin: 15px;
+  border: 5px solid #555;
+  padding: 5px 5px;
+  margin: 30px;
+  background: rgb(212, 225, 230);
+
 }
 
 .aboutme {
@@ -80,6 +107,7 @@ p {
 
 .aboutme p {
   padding: 5px 40px;
+  
 }
 
 .projects {
@@ -87,6 +115,33 @@ p {
   color: var(--darkgrey);
   padding-left: 100px;
   padding-top: 65px;
+  
+}
+
+.sassyPets {
+   background-image: url("../images/project-screenshot.png");
+    
+}
+
+.calender {
+   background-image: url("../images/screencapture-maripia12-github-io-Work-day-scheduler-2021-07-06-12_09_08.png");
+    
+}
+
+.quiz {
+  background-image: url("../images/codequiz1.png");
+}
+
+.flex-item div{
+  background-color: rgb(202, 223, 126);
+  color: #3a4042;
+  font-size: 20px;
+  border: solid #3a4042;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: -3px;
+  padding-bottom: 10px;
+   
   
 }
 
@@ -104,6 +159,7 @@ p {
   padding-left: 100px;
   margin-bottom: 100px;
 
+
 }
 
 .contact-link a {
@@ -113,6 +169,11 @@ p {
   text-decoration: none;
   padding: 2px;
   justify-content: space-around;
+  
+}
+
+.contact-link:hover { 
+
 }
 
 .line {
@@ -122,9 +183,88 @@ p {
 .maingrid {
   display: grid;
   grid-template-columns: 1fr 1fr 7fr;
+   
+  
 }
 
-.container { padding: 5px 50px;}
+
+
+.container { 
+  background-color: rgb(163, 231, 231);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  position: relative;
+  
+   
+}
+
+ 
+
+
+
+  
+
+
+
+.flex-item {
+ 
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  font-size: 0.9rem;
+  
+   
+
+ 
+}
+
+
+
+
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+    border: 5px solid #555;
+}
+
+.flex-item:nth-child(2){
+    min-height: 270px;
+    max-width: 48%;
+    flex-basis: 50%;
+    border: 5px solid #555;
+     
+     
+}
+    
+    
+     
+    
+.flex-item:nth-child(3){
+    min-height: 270px;
+    max-width: 48%;
+    flex-shrink: 2;
+    flex-basis: 50%;
+    border: 5px solid #555;
+     
+}
+
+  
+
+
+
 
 @media only screen and (max-width:600px ) { 
     .line {

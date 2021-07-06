@@ -11,13 +11,12 @@ To create a portfolio with the core skills recently learned in class. Including 
 * Links are placed on the far right.  
 * Brief summary about myself with picture.
 * When links are clicked it navigates to the corresponding sections.
-* An image of my first assigned project.
-* Used grid form and line separator. 
-* Contact links are also provided.
+* A screen shot of my first assigned project and two other homework assignments along with their corresponding repositories.
+* My Github and linkedin are also provided.
 
   
 
- ![portfolio-image.png](assets/images/portfolio-image.png)
+ ![portfolio-image.png](assets/images/updated-portofolio.png);
 
 
 
