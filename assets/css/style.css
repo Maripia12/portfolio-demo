@@ -207,13 +207,6 @@ p {
 }
 
  
-
-
-
-  
-
-
-
 .flex-item {
  
   min-height: 150px;
@@ -233,12 +226,15 @@ p {
 
 
 
-
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
     border: 5px solid #555;
 }
+  
+
+
+
 
 .flex-item:nth-child(2){
     min-height: 270px;
@@ -249,9 +245,8 @@ p {
      
 }
     
-    
-     
-    
+
+
 .flex-item:nth-child(3){
     min-height: 270px;
     max-width: 48%;
@@ -260,9 +255,6 @@ p {
     border: 5px solid #555;
      
 }
-
-  
-
 
 
 
@@ -280,3 +272,10 @@ p {
 }
     
 }
+    
+     
+    
+
+  
+
+

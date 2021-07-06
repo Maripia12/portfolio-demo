@@ -8,13 +8,14 @@ To create a portfolio with the core skills recently learned in class. Including 
 ## Details:
 
  
-* Links are placed on the far right.  
+* Nav links are placed on the far right.  
 * Brief summary about myself with picture.
 * When links are clicked it navigates to the corresponding sections.
 * A screen shot of my first assigned project and two other homework assignments along with their corresponding repositories.
 * My Github and linkedin are also provided.
 
   
+  https://maripia12.github.io/portfolio-demo/
 
  ![portfolio-image.png](assets/images/updated-portofolio.png);
 
