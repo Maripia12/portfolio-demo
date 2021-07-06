@@ -18,7 +18,7 @@ To create a portfolio with the core skills recently learned in class. Including 
   https://maripia12.github.io/portfolio-demo/
 
  ![portfolio-image.png](assets/images/updated-portofolio.png);
- 
+
 
 
 
