@@ -132,6 +132,15 @@ p {
   background-image: url("../images/codequiz1.png");
 }
 
+.express {
+  background-image: url('../images/Notetaker.png');
+}
+
+.express1 {
+  background-image: url('../images/Insomnia-get-post-put-delete.png');
+}
+
+
 .flex-item div{
   background-color: rgb(202, 223, 126);
   color: #3a4042;
@@ -256,6 +265,24 @@ p {
      
 }
 
+
+.flex-item:nth-child(4){
+    min-height: 270px;
+    max-width: 48%;
+    flex-shrink: 2;
+    flex-basis: 50%;
+    border: 5px solid #555;
+     
+}
+
+.flex-item:nth-child(5){
+    min-height: 270px;
+    max-width: 48%;
+    flex-shrink: 2;
+    flex-basis: 50%;
+    border: 5px solid #555;
+     
+}
 
 
 @media only screen and (max-width:600px ) { 

@@ -2,7 +2,7 @@
 
 ## Project:
 
-To create a portfolio with the core skills recently learned in class. Including grids, css variables and media queries. 
+An updated portfolio displaying the core skills recently learned in class. The project section showcases five of my recent applications I've developed while attending Georgia Tech's Full Stack Coding Bootcamp.
 
 -----
 ## Details:
@@ -17,7 +17,7 @@ To create a portfolio with the core skills recently learned in class. Including 
   
   https://maripia12.github.io/portfolio-demo/
 
- ![portfolio-image.png](assets/images/updated-portofolio.png);
+ ![screenshot](assets/images/portfolio-image.png);
 
 
 
